@@ -1,0 +1,46 @@
+ol > li:hover {
+    color: green;
+}
+
+ol > li:visited {
+    color: red;
+}
+
+ol > li:checked {
+    background-color: gray;
+}
+
+ol > li:link {
+    color: black;
+}
+
+button:not([type="submit"]) {
+    font-family: fantasy;
+    width: 85px;
+    height: 40px;
+}
+
+
+
+/* Структурні */
+
+
+button:empty {
+    color: greenyellow;
+}
+
+ol:first-child {
+    font-size: 50px;
+}
+
+ol:last-child {
+    font-size: 10px;
+}
+
+ol:nth-child(2n) {
+    font-family: cursive;
+}
+
+ol:nth-child(odd) {
+    background-color: darkgray;
+}
